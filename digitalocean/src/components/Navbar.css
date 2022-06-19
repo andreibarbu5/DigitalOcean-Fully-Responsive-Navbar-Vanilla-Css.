@@ -1,0 +1,702 @@
+.nav-links ul{
+    display: none;
+  }
+  
+  .burger{
+    display: none;
+  }
+
+  .announcement{
+    display: none;
+  }
+  .join div{
+    display: none;
+  }
+  .joinbtnmed div{
+    display: none;
+  }
+  .ann-links ul{
+    display: none;
+  }
+  
+  @media only screen and (max-width: 769px) {
+     /* Navbar Styles*/
+    .navbar-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   
+      padding: 0rem 0.5rem 0rem 1rem;
+      font-weight: 500;
+      font-size: larger;
+      height: 4.6rem;
+    }
+    .navbar-container ul{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 58px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      background-color: white;
+      padding-left: 0rem;
+      padding-top: 1rem;
+    }
+    .navbar-container li{
+      list-style-type: none;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-bottom:0.05rem  rgb(205, 203, 203) solid ;
+      background-color: white;
+      
+    }
+   
+    .navbar-container ul a{
+      text-decoration: none;
+      color: black;
+     
+    }
+    .pricing{
+      color: rgb(0,105,255) !important;
+      
+    }
+  
+    .burger{
+      display: block;
+      padding-right: 0.5rem;
+      
+    }
+  
+    .burger button{
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      
+    }
+  
+    .show ul{
+      display: block;
+      
+    }
+  
+    .hide ul{
+      display: none;
+      
+    }
+  
+    .navbar-container{
+      border-bottom: 0.05rem  rgb(226, 224, 224) solid;
+      
+    }
+  
+    .arrow li a{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 0.5rem;
+      padding-right: 1.7rem;
+      
+    }
+  
+    .arrow img{
+      width: 1.5%;
+      
+    }
+   
+    .join{
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 400px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      
+    }
+  
+    .login{
+      padding-bottom: 1rem;
+      border: 0.05rem  rgb(17, 16, 16) solid;
+      width: 100%;
+      margin-top:1rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      text-align: center;
+      border-radius: 0.5rem;
+      font-size:medium;
+      font-weight: bold;
+      background-color: white;
+    }
+    .signup{
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      background-color: rgb(0,105,255);
+      color: white;
+      width: 100%;
+      text-align: center;
+      border-radius: 0.5rem;
+      font-size:medium;
+      font-weight: bold;
+      
+    }
+   
+    .hiring{
+      margin-top: 2rem !important;
+      color:rgb(0,105,255) !important;
+      border: 0.05rem  rgb(0,105,255) solid !important;
+      
+    }
+  
+    .nav-links ul li a{
+      padding-left: 1rem;
+      
+    }  
+    .nav-links{
+       background-color: white;
+       
+    }
+    .products a{
+      padding-top: 1rem !important;
+      
+    }
+    .hide1{
+      display: none;
+      
+    }
+    .show1{
+      display: block;
+      
+    }
+  
+    .join a{
+        padding-bottom: 2.2rem;
+        
+      }
+      .join div{
+        display: block;
+        
+      }
+
+      .join{
+        background-color: white;
+        height: 100vh;
+        
+      }
+
+      .show1{
+        background-color: white;
+      }
+
+      .hide1{
+        background-color: white;
+      }
+    
+  }
+
+  @media screen and (min-width: 769px)and (max-width: 1025px) { 
+     /* Navbar Styles*/
+     .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+        padding: 0rem 0.5rem 0rem 1rem;
+        font-weight: 500;
+        font-size: larger;
+        height: 4.6rem;
+        border-bottom: 0.05rem  rgb(226, 224, 224) solid;
+      }
+   
+      .navbar-container ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 98px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0;
+        background-color: white;
+        padding-left: 0rem;
+        padding-top: 1rem;
+      }
+      .navbar-container li{
+        list-style-type: none;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom:0.05rem  rgb(205, 203, 203) solid ;
+        background-color: white;
+      }
+     
+      .navbar-container ul a{
+        text-decoration: none;
+        color: black;
+       
+      }
+      .pricing{
+        color: rgb(0,105,255) !important;
+      }
+    
+      .burger{
+        display: block;
+        padding-right: 0.5rem;
+      }
+    
+      .burger button{
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+      }
+    
+      .show ul{
+        display: block;
+      }
+    
+      .hide ul{
+        display: none;
+      }
+    
+      
+    
+      .arrow li a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 0.5rem;
+        padding-right: 1.7rem;
+      }
+    
+      .arrow img{
+        width: 1.5%;
+      }
+     
+      .join{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 440px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+
+      .join a{
+        padding-bottom: 2.2rem;
+      }
+
+      .joinbtnmed{
+        display: flex;
+        
+        align-items: center;
+       }
+
+       .joinbtnmed div{
+        display: block;
+      }
+      
+    
+      .login{
+        padding-bottom: 1rem;
+        border: 0.05rem  rgb(17, 16, 16) solid;
+        width: 100%;
+        margin-top:1rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        font-size:medium;
+        font-weight: bold;
+      }
+      .signup{
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        background-color: rgb(0,105,255);
+        color: white;
+        width: 100%;
+        text-align: center;
+        border-radius: 0.5rem;
+        font-size:medium;
+        font-weight: bold;
+      }
+     
+      .hiring{
+        margin-top: 2rem !important;
+        color:rgb(0,105,255) !important;
+        border: 0.05rem  rgb(0,105,255) solid !important;
+      }
+    
+      .nav-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .nav-links ul li a{
+        padding-left: 1rem;
+        
+      }  
+      .products a{
+        padding-top: 1rem !important;
+      }
+      
+      .show1{
+        display: block;
+      }
+       .hide1 div{
+         display: none;
+       }
+
+      .login2{
+        margin-right:1rem;
+      }
+       
+      .login2 a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #080b2d;
+      }
+
+      .signup2{
+        background-color:rgb(0,105,255) ;
+        padding:0.5rem 1.5rem 0.5rem 1.5rem;
+        border-radius: 0.5rem;
+      }
+
+      .signup2 a{
+        text-decoration: none;
+        font-weight: 650;
+        font-size: 16px;
+        line-height: 24px;
+        color: white
+      }
+
+      .joinbtnmed{
+        margin-right: -5rem;
+      }
+     
+      .announcement{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(8,27,75);
+        height:40px;
+        text-align: center;
+      
+      }
+      .announcement h5{
+        font-weight: 400;
+        font-style: normal ;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(172,174,189);
+        padding-bottom: 0.1rem;
+        
+      }
+
+      .join div{
+        display: block;
+      }
+
+      .join{
+        background-color: white;
+        height: 100vh;
+        
+      }
+
+}
+
+  @media screen and (min-width: 1025px) and (max-width: 1162px){
+    .nav-links ul{
+
+        display: flex;
+        
+    }
+
+    .nav-links li{
+        list-style-type: none;
+        padding-right: 1rem;
+    }  
+    .nav-links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(77,91,124);
+    }  
+
+  
+
+    .announcement{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(8,27,75);
+        height:40px;
+        text-align: center;
+      
+      }
+      .announcement h5{
+        font-weight: 400;
+        font-style: normal ;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(172,174,189);
+        padding-bottom: 0.1rem;
+        padding-left: 2rem;
+        letter-spacing: -0.09px;
+        
+      }
+    
+      .ann-links ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 2rem;
+      }
+      .ann-links li{
+        list-style-type: none;
+        padding-left: 1rem;
+        padding-bottom: 0.1rem;
+        
+      }
+      .ann-links a{
+        text-decoration: none;
+        color:rgb(172,174,189);
+        font-weight: 400;
+        font-size:14px;
+        line-height: 20px;
+        letter-spacing: -0.09px;
+       
+      }
+
+   
+
+      .navbar-container{
+        display: flex;
+       
+        align-items: center;
+        padding: 0;
+        height: 73px;
+       
+        padding-left: 2rem;
+        padding-right: 2rem;
+       
+      }
+
+      .hide1{
+        display: none;
+      }
+      .joinbtnmed div{
+        
+        display: block;
+
+      }
+      .joinbtnmed{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto
+      }
+
+      .login2{
+        margin-right:0.8rem;
+      }
+       
+      .login2 a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 0wpx;
+        color: rgb(8,11,45);
+        padding-right: 1rem;
+      }
+    
+      .signup2{
+        background-color:rgb(0,105,255) ;
+        padding:0.5rem 1.2rem 0.5rem 1.2rem;
+        border-radius: 0.5rem;
+      }
+
+      .signup2 a{
+        text-decoration: none;
+        font-weight: 650;
+        font-size: 16px;
+        line-height: 24px;
+        color: white
+      }
+
+      .logo{
+        padding-right: 0rem;
+      }
+      
+      .arrow img {
+        transform: rotate(90deg);
+        padding-bottom: 0.5rem;
+        padding-left:0.5rem
+        
+        
+      }
+      .arrow a{
+       padding-left: 0.5rem;
+      }
+   
+
+}
+
+  @media screen and (min-width: 1162px) {
+  .nav-links ul{
+
+    display: flex;
+    
+}
+
+.nav-links li{
+    list-style-type: none;
+    padding-right: 1rem;
+}  
+.nav-links a{
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+color: rgb(77,91,124);
+}  
+
+
+
+.announcement{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(8,27,75);
+    height:40px;
+    text-align: center;
+  
+  }
+  .announcement h5{
+    font-weight: 400;
+    font-style: normal ;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(172,174,189);
+    padding-bottom: 0.1rem;
+    padding-left: 6.3rem;
+    letter-spacing: -0.09px;
+    
+  }
+
+  .ann-links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6.3rem;
+  }
+  .ann-links li{
+    list-style-type: none;
+    padding-left: 1rem;
+    padding-bottom: 0.1rem;
+    
+  }
+  .ann-links a{
+    text-decoration: none;
+    color:rgb(172,174,189);
+    font-weight: 400;
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: -0.09px;
+   
+  }
+
+  .navbar-container{
+    display: flex;
+   
+    align-items: center;
+    padding: 0;
+    height: 73px;
+   
+    padding-left: 6.3rem;
+    padding-right: 6.3rem;
+   
+  }
+
+  .hide1{
+    display: none;
+  }
+  .joinbtnmed div{
+    
+    display: block;
+
+  }
+  .joinbtnmed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto
+  }
+
+  .login2{
+    margin-right:0.8rem;
+  }
+   
+  .login2 a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0wpx;
+    color: rgb(8,11,45);
+    padding-right: 1rem;
+  }
+
+  .signup2{
+    background-color:rgb(0,105,255) ;
+    padding:0.5rem 1.2rem 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+  }
+
+  .signup2 a{
+    text-decoration: none;
+    font-weight: 650;
+    font-size: 16px;
+    line-height: 24px;
+    color: white
+  }
+
+  .logo{
+    padding-right: 0rem;
+  }
+  
+  .arrow img {
+    transform: rotate(90deg);
+    padding-bottom: 0.5rem;
+    padding-left:0.5rem
+  }
+  .arrow a{
+   padding-left: 0.5rem;
+  }
+}
